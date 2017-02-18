@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weight_bg">
+
+
+    <TextView
+        android:text="WEIGHT LOSS TIPS"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#36AAB3"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="1. Drink plenty of water."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:text="First how to lose weight fast tip is that our body needs a lot of waterso give in to water. Water is not just way to flush out toxin but if you have more water in your body you will generally feel healthier and fitter.This it self will discourage any tendency to gorge. The best thing about water is that it has no calories at all."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:text="2. Start your day with a glass of water."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:text="As soon as you wake up, gulp down a glass of cool water. Its a wonderful way to start your day and you only need a lesser quantity of your breakfast drink after that. A glass of water lets out all your digestive juices and sort of lubricates the insides of your body. You may have your morning cup of tea but have it after a glass of water. It is good for you."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12" />
+
+            <TextView
+                android:text="3. Drink a glass of water before you start the meal."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:text="Water naturally needs some space so that you feel without actually having to stuff yourself."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:text="3. Have another glass of water while you are having the meal."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:text="Again this is another great thing on how to lose weight fast super tip and a way of making yourself full, another great weight loss tips, so that you can actually rise from the table eating less but feeling full just the same."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:text="5. Stay away from sweetened bottle drinks, especially sodas."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:text="Hey all those colas and fizzy drinks are sweetened with sugar and sugar means calories. The more you can cut out on these sweetened bottle drinks, the better for you. So if you must drink sodas, then stick to diet sodas."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18" />
+
+            <TextView
+                android:text="6. Include in your diet things that contain more water like tomatoes and watermelons."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19" />
+
+            <TextView
+                android:text="These things contain 90 to 95% water so that there is nothing that you have to lose by feasting on them. They fill you up without adding to the pounds."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20" />
+
+            <TextView
+                android:text="7. Eat fresh fruit instead of drinking fruit juice."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21" />
+
+            <TextView
+                android:text="Juice is often sweetened but fresh fruits have natural sugars. When you eat fruit, you are taking in a lot of fiber, which is needed by the body, and fruits of course are an excellent source of vitamins."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22" />
+
+            <TextView
+                android:text="8. If you do have a craving for fruit juice then go for fresh fruit juice."
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23" />
+
+            <TextView
+                android:text="Instead of these that contain artificial flavors and colors. Or even better, try making your own fruit juice taking care not to sweeten it with too many calories."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

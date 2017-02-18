@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="false">
+
+        <TextView
+            android:text="FAT BURNING FOODS"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textColor="#36AAB3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/grains"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:text="1. Whole Grains\n
+Your body burns twice as many calories breaking down whole foods (especially those rich in fiber such as oatmeal and brown rice) than processed foods."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView25"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/meat"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:text="2. Lean Meat\n
+Protein has a high thermogenic effect: You burn about 30% of the calories the food contains during digestion (so a 300-calorie chicken breast requires about 90 calories to break it down)."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView27"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/dairy"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:text="3. Low-fat Dairy Products\n
+Rich in calcium and vitamin D, these help preserve and build muscle mass—essential for maintaining a robust metabolism."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView28"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tea"
+                android:id="@+id/imageView5" />
+
+            <TextView
+                android:text="4. Green Tea\n
+Drinking four cups of green tea a day helped people shed more than six pounds in eight weeks, the American Journal of Clinical Nutrition reports. Credit EGCG, a compound in the brew that temporarily speeds metabolism after sipping it. To up your intake, keep a jug of iced tea in the fridge."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView29"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

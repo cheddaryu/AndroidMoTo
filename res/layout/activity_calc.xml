@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:animateLayoutChanges="false">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Age    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/ageTxtBx"
+            android:layout_weight="0.91" />
+
+        <ToggleButton
+            android:text="ToggleButton"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderTBtn"
+            android:layout_weight="1.00"
+            android:layout_width="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/heightTxtBx"
+            android:layout_weight="1.01" />
+
+        <ToggleButton
+            android:text="ToggleButton"
+            android:layout_height="wrap_content"
+            android:id="@+id/heightTBtn"
+            android:layout_weight="1"
+            android:layout_width="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/weightTxtBx"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:text="ToggleButton"
+            android:layout_height="wrap_content"
+            android:id="@+id/weightTBtn"
+            android:layout_weight="1"
+            android:layout_width="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="BMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="0.0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bmiTxt"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Ideal Weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="0.0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idealweightTxt"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Fat %"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="0.0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatTxt"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Very Severly Underweight      less than  16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/VSunderTxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Severly Underweight      16 - 17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SunderTxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Underweight      17 - 18.49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UnderTxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Normal      18.5 - 24.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/NormalTxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Overweight      25 - 29.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/OverweightTxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Obese Class I      30 - 34.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ObeseITxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Obese Class II      35 - 40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ObeseIITxt"
+            android:textAlignment="center" />
+        <TextView
+            android:text="Obese Class III      greater than 40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ObeseIIITxt"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>
